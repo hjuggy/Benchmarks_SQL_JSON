@@ -28,4 +28,8 @@ As you can see from the table, using **JSON Functions and Operators** when worki
 - Completed Work Items : The number of work items that have been processed in ThreadPool (per single operation)
 - 1 ms                 : 1 Millisecond (0.001 sec)
   
+  Most databases have similar JSON Functions and Operators:
   
+  - MySQL (https://dev.mysql.com/doc/refman/5.7/en/json-function-reference.html)
+  - Oracle JSON_TABLE (https://docs.oracle.com/database/121/SQLRF/functions092.htm#SQLRF56973)
+  - Microsoft SQL server (https://docs.microsoft.com/en-us/sql/relational-databases/json/json-data-sql-server?view=sql-server-ver15)
