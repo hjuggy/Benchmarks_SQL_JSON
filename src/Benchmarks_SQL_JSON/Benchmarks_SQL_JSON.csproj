@@ -1,0 +1,36 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Resources\Coupled\Create.sql" />
+    <None Remove="Resources\SeparatedUseJson\Order\Create.sql" />
+    <None Remove="Resources\SeparatedUseJson\Subscription\Create.sql" />
+    <None Remove="Resources\Separated\Order\Create.sql" />
+    <None Remove="Resources\Separated\Subscription\Create.sql" />
+    <None Remove="Resources\Separated\User\Create.sql" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Coupled\Create.sql" />
+    <EmbeddedResource Include="Resources\SeparatedUseJson\Order\Create.sql" />
+    <EmbeddedResource Include="Resources\SeparatedUseJson\Subscription\Create.sql" />
+    <EmbeddedResource Include="Resources\Separated\Order\Create.sql" />
+    <EmbeddedResource Include="Resources\Separated\Subscription\Create.sql" />
+    <EmbeddedResource Include="Resources\Separated\User\Create.sql" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="BenchmarkDotNet" Version="0.13.0" />
+    <PackageReference Include="BenchmarkDotNet.Diagnostics.Windows" Version="0.13.0" />
+    <PackageReference Include="Bogus" Version="33.0.2" />
+    <PackageReference Include="Dapper" Version="2.0.90" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="5.0.8" />
+    <PackageReference Include="Npgsql" Version="5.0.7" />
+    <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="5.0.7" />
+  </ItemGroup>
+
+</Project>
