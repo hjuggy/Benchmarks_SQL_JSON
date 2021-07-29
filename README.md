@@ -15,3 +15,18 @@ As you can see from the table, using JSON Functions and Operators when working w
 |              CreatUseDapper | 6.584 ms | 0.5591 ms | 1.6486 ms | 6.305 ms |     - |     - |     - |    189 KB |              22.0000 |                - |
 | CreatUseDapperJsonSeparated | 2.798 ms | 0.5964 ms | 1.7584 ms | 2.314 ms |     - |     - |     - |     42 KB |               4.0000 |                - |
 |          CreatUseDapperJson | 2.248 ms | 0.1500 ms | 0.4423 ms | 2.132 ms |     - |     - |     - |     37 KB |               2.0000 |                - |
+
+*legends*
+  Mean                 : Arithmetic mean of all measurements
+  Error                : Half of 99.9% confidence interval
+  StdDev               : Standard deviation of all measurements
+  Median               : Value separating the higher half of all measurements (50th percentile)
+  Gen 0                : GC Generation 0 collects per 1000 operations
+  Gen 1                : GC Generation 1 collects per 1000 operations
+  Gen 2                : GC Generation 2 collects per 1000 operations
+  Allocated            : Allocated memory per single operation (managed only, inclusive, 1KB = 1024B)
+  Completed Work Items : The number of work items that have been processed in ThreadPool (per single operation)
+  Lock Contentions     : The number of times there was contention upon trying to take a Monitor's lock (per single operation)
+  1 ms                 : 1 Millisecond (0.001 sec)
+  
+  
