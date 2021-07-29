@@ -1,9 +1,9 @@
 This example demonstrates how you can shorten the execution time of queries against the database (for example  PostgreSQL).
 Used by:
-	- EF
-	- Dapper
-	- Dapper + JSON Functions and Operators (https://www.postgresql.org/docs/9.4/functions-json.html)
-	- Dapper + JSON Functions and Operators (with separated repository for each entity)
+	* EF
+	* Dapper
+	* Dapper + JSON Functions and Operators (https://www.postgresql.org/docs/9.4/functions-json.html)
+	* Dapper + JSON Functions and Operators (with separated repository for each entity)
 
 As you can see from the table, using JSON Functions and Operators when working with collections significantly increases the performance of the application.
 
